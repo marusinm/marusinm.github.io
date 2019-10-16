@@ -51,14 +51,16 @@ body {
 
 .btn-light {
     border-radius: 0;
-    color: #333;
+    /*color: #333;*/
+    color: #001120;
     background-color: rgb(255,255,255);
 }
 
 .btn-light:hover,
 .btn-light:focus,
 .btn-light:active {
-    color: #333;
+    /*color: #333;*/
+    color: #001120;
     background-color: rgba(255,255,255,0.8);
 }
 
@@ -78,7 +80,10 @@ hr.small {
     height: 100%;
     margin-right: -250px;
     overflow-y: auto;
-    background: #222;
+    /*background: #222;*/
+    /*background: #001120;*/
+    color: #fff;
+    background-color: rgba(0,0,0,0.7);
     -webkit-transition: all 0.4s ease 0s;
     -moz-transition: all 0.4s ease 0s;
     -ms-transition: all 0.4s ease 0s;
@@ -177,6 +182,7 @@ hr.small {
 
 .services {
     padding: 50px 0;
+    /*background-color: #001120;*/
 }
 
 .service-item {
