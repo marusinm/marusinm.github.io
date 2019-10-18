@@ -80,7 +80,8 @@ hr.small {
     height: 100%;
     margin-right: -250px;
     overflow-y: auto;
-    background: #222;
+    color: #fff;
+    background-color: rgba(0,0,0,0.7);
     -webkit-transition: all 0.4s ease 0s;
     -moz-transition: all 0.4s ease 0s;
     -ms-transition: all 0.4s ease 0s;
@@ -208,6 +209,8 @@ hr.small {
 
 .portfolio-item {
     margin-bottom: 30px;
+    position: relative;
+    text-align: center;
 }
 
 .img-portfolio {
@@ -216,6 +219,14 @@ hr.small {
 
 .img-portfolio:hover {
     opacity: 0.8;
+}
+
+.img-protfolio-text-centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
 }
 
 /* Call to Action */
